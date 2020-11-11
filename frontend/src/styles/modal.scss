@@ -1,0 +1,64 @@
+.modal {
+    padding: 10%;
+    //
+    .modal__content {
+        margin: 50px 50px;
+        // display: flex;
+        // flex-direction: column;
+    }
+    .modal__title {
+        font-family: 'Space Mono', monospace !important;
+        font-size: 1.5rem;
+        color: #222;
+        text-transform: uppercase;
+        margin: 20px 20px 0px;
+    }
+
+    .modal__form {
+        display: flex;
+        flex-direction: column;
+        min-width: 40%;
+        height: fit-content;
+        // margin: 10px 20px;
+        // padding: 100px;
+    }
+
+    .modal__input {
+        // margin: 10px 20px;
+        margin: 10px 0px;
+        width: 100%;
+        font-family: 'Space Mono', monospace !important;
+        ::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            font-family: 'Space Mono', monospace !important;
+        }
+        ::-moz-placeholder {
+            /* Firefox 19+ */
+            font-family: 'Space Mono', monospace !important;
+        }
+        :-ms-input-placeholder {
+            /* IE 10+ */
+            font-family: 'Space Mono', monospace !important;
+        }
+        :-moz-placeholder {
+            /* Firefox 18- */
+            font-family: 'Space Mono', monospace !important;
+        }
+    }
+
+    .modal__btn {
+        width: 50%;
+        text-transform: unset;
+        border-radius: 0px;
+        font-family: 'Space Mono', monospace;
+        margin: 20px 0px;
+        background: #222;
+        border: #fe6b8b 1px solid;
+        box-shadow: 0px;
+        color: white;
+        &:hover {
+            background: white;
+            color: #fe6b8b;
+        }
+    }
+}

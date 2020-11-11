@@ -1,0 +1,20 @@
+$mobile: 1000px;
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #222;
+    line-height: unset;
+
+    @media screen and (max-width: $mobile) {
+        background-color: #333;
+    }
+}
+
+.container {
+    background-color: #333;
+    padding: 20px;
+    @media screen and (max-width: $mobile) {
+        padding: 10px;
+        background-color: #333;
+    }
+}

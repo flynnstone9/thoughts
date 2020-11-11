@@ -1,0 +1,140 @@
+$mobile: 1000px;
+
+.nav {
+    display: flex;
+    background-color: #222;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 5px;
+    color: white;
+    padding: 10px;
+
+    @media screen and (max-width: $mobile) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav__link--active {
+        color: #fe6b8b;
+        border-bottom: #fe6b8b 2px solid;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+
+        @media screen and (max-width: $mobile) {
+            justify-content: flex-start;
+            align-items: center;
+            margin-left: 0px;
+            margin-bottom: 20px;
+        }
+
+        .nav__link {
+            margin-right: 30px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+        }
+    }
+
+    .nav__right {
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+
+        .nav__btn {
+            margin-right: 15px;
+            text-transform: unset;
+            border-radius: 0px;
+            font-family: 'Space Mono', monospace;
+        }
+
+        .nav__btn--primary {
+            background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+            -webkit-box-shadow: 0px 0px 12px 1px rgba(254, 74, 105, 0.63);
+            box-shadow: 0px 0px 12px 1px rgba(254, 74, 105, 0.63);
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+
+        .nav__btn--secondary {
+            background: #222;
+            border: #fe6b8b 1px solid;
+            color: #fe6b8b;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+.nav__info {
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px;
+    background-color: #222;
+    padding: 10px;
+    .nav__icon {
+        margin-right: 5px;
+    }
+
+    .nav__loginstatus {
+        // padding: 10px 0 0 0;
+        font-size: 0.75rem;
+        // margin-right: 15px;
+    }
+
+    .nav__user {
+        border-bottom: 1px solid white;
+        &:hover {
+            border-bottom: 1px solid #ff8e53;
+        }
+    }
+
+    .nav__notification {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 10px;
+        .nav__notiIcon {
+            margin-right: 10px;
+        }
+    }
+}
+
+.modal__note {
+    font-size: 0.8rem;
+    color: #222;
+}
+
+.nav__users__link {
+    width: 100%;
+    height: auto;
+    color: white;
+    text-decoration: unset;
+
+    &:hover {
+        color: #ff8e53;
+    }
+
+    &:visited {
+        color: white;
+    }
+}
+
+.nav__btn--logout {
+    @media screen and (max-width: $mobile) {
+        max-width: 40%;
+    }
+}

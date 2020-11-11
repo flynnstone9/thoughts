@@ -1,0 +1,20 @@
+5a. check if all ignored private variables are okay to push without
+5. push to heroku and github... (remove console logs / fix eslint stuff)
+ 
+next:
+-better notification on sign up fail (username already used / need longer pw)
+-support line break or even markdown...
+-fix test on front and backend
+
+ideas:
+reverse new post order and comments order
+sticky add thought form on desktop - mabye make it modal fixed button on 
+sort by dropdown (most liked, newest, random)
+add dates to blog post and print them out....
+like bttn gets more vibrant as you get more likess.s.s..s.s. or animations
+tags final input.... splits on space like yt tags
+onHover of thought - make little arrouw icon pointing to likes on like btn > 
+add number of comments to main cards
+
+why was I (this website) made?
+It was made to learn the MERN stack and get way more comfortable in React. Try to be less existential

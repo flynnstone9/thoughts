@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIyMjIyMjIyMjIiLCJpZCI6IjVmNzI3ODcyOTc1ZTNhMTEwYWJmM2U1OSIsImlhdCI6MTYwMTMzOTgyNX0.HzdOeRQTvUZWbeZmgUWgfhPNvtq5jvmqsOpOAutJIAE
+
+{
+    "title": "POST AUTH 2",
+    "author": "Lord Auth",
+    "url": "https://poolsareblue.com",
+    "likes": 2,
+    "userid": "5f72785f975e3a110abf3e58"
+}
