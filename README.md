@@ -3,5 +3,5 @@
 
 Full Stack App created with React, Redux, SCSS, Material-UI, Node, Express, MongoDB
 
-Hosted on Heroku
+Hosted on Heroku</br>
 [Thoughts App Demo](https://radiant-tundra-91227.herokuapp.com/)
